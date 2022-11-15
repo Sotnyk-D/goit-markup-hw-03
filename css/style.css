@@ -1,0 +1,247 @@
+/* 
+цвет ховера текста #2196F3
+главный цвет текста #212121
+вторичный цвет текста #757575
+цвет главного заголовка #FFFFFF
+вторичный цвет фона #F5F4FA
+
+ */
+:root {
+  --text-color: #000000;
+  --secondary-text-color: #757575;
+  --prymery-text-color: #212121;
+  --accent-color: #2196f3;
+  --pramery-white-color: #ffffff;
+  --pramery-footer-text-color: rgba(255, 255, 255, 0.6);
+  --backgroundcolor-hero: #2f303a;
+  --pramery-footer-color: #2f303a;
+  --secondary-backgraund-color: #f5f4fa;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--pramery-white-color);
+  color: var(--prymery-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* header */
+
+.logo {
+  font-size: 0;
+}
+
+.logo .color-blu {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo .color-black {
+  color: var(--text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: var(--prymery-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.contakt-nav .contakt {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contakt-nav .contakt:hover,
+.contakt-nav .contakt:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--backgroundcolor-hero);
+}
+.hero .hero-title {
+  color: var(--pramery-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  color: var(--pramery-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Feature */
+
+.feature-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-list .feature-text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Works */
+
+.works .works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Team */
+
+.team {
+  background-color: var(--secondary-backgraund-color);
+}
+
+.team .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team .team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .team-prof {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--pramery-footer-color);
+}
+.footer-logo {
+  font-size: 0;
+}
+.footer-logo .color-blu {
+  color: var(--accent-color);
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-logo .color-white {
+  color: var(--pramery-white-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.address .address-name {
+  color: var(--pramery-white-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.address .address-mail,
+.address-tel {
+  color: var(--pramery-footer-text-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-color);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.list-button .buttons {
+  color: var(--prymery-text-color);
+  background-color: var(--secondary-backgraund-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  cursor: pointer;
+}
+.list-button .buttons:hover,
+.list-button .buttons:focus {
+  color: var(--pramery-white-color);
+  background-color: var(--accent-color);
+}
+
+.card .card-title {
+  color: var(--prymery-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card .card-text {
+  color: var(--secondary-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
