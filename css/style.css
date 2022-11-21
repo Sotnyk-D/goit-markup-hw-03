@@ -240,8 +240,7 @@ p {
 
 .team {
   background-color: var(--secondary-backgraund-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  text-align: center;
 }
 
 .team-list {
@@ -382,10 +381,10 @@ p {
 }
 
 .card .item {
-  /* width: calc((100%-60px) / 3); */
+  width: calc(100%-30px / 3);
   display: inline-block;
-  margin-right: 30px;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .card .item:nth-child(3n) {
@@ -397,12 +396,19 @@ p {
 }
 
 .card .img-project {
-  margin-bottom: 20px;
+  display: block;
+}
+
+.text-title {
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .card .card-title {
   color: var(--prymery-text-color);
   margin-bottom: 4px;
+  padding-top: 20px;
+  padding-left: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -412,6 +418,7 @@ p {
 .card .card-text {
   color: var(--secondary-text-color);
   margin-bottom: 20px;
+  padding-left: 24px;
 
   font-weight: 400;
   font-size: 16px;
