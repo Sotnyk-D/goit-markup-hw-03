@@ -56,7 +56,16 @@ p {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* header */
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .logo {
   display: block;
@@ -180,11 +189,6 @@ p {
 
 /* Feature */
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .feature-list {
   display: flex;
 }
@@ -215,11 +219,6 @@ p {
 }
 
 /* Works */
-
-.works {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .example {
   display: flex;
@@ -351,8 +350,6 @@ p {
 
 .portfolio {
   display: inline-block;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list-button {
@@ -386,6 +383,7 @@ p {
 
 .card .item {
   /* width: calc((100%-60px) / 3); */
+  display: inline-block;
   margin-right: 30px;
   margin-bottom: 30px;
 }
